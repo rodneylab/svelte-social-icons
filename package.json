@@ -1,6 +1,6 @@
 {
   "name": "@rodneylab/svelte-social-icons",
-	"description": "Beautiful, easy svg social icons in Svelte",
+	"description": "Beautiful, easy SVG social icons in Svelte",
   "version": "0.0.1",
   "svelte": "src/index.js",
   "author": "Rodney Lab <ask@rodneylab.com> (@rodneyLab)",
