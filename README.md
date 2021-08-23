@@ -18,6 +18,6 @@ To use:
 <SocialIcons network="twitter" />
 
 
-<SocialIcons network="github" width="24" height="24/>
-<SocialIcons network="twitter" fgColor="#111" bgColor="#eee"/>
+<SocialIcons network="github" width="24" height="24" />
+<SocialIcons network="twitter" fgColor="#111" bgColor="#eee" />
 ```
