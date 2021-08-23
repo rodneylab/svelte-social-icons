@@ -5,3 +5,19 @@ To install run
 ```
 pnpm install @rodneylab/svelte-social-icons
 ```
+
+
+To use:
+
+```
+<script>
+	import SocialIcons from '@rodneylab/svelte-social-icons';
+</script>
+
+<SocialIcons network="github" />
+<SocialIcons network="twitter" />
+
+
+<SocialIcons network="github" width="24" height="24/>
+<SocialIcons network="twitter" fgColor="#111" bgColor="#eee"/>
+```
