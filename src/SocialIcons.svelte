@@ -5,6 +5,7 @@
 
   const { color, icon, mask } = networks[network];
 
+  export let alt = `${network} logo`;
   export let bgColor = color;
   export let fgColor = 'transparent';
   export let height = 48;
@@ -22,7 +23,7 @@
 
 <span class="social-icon" style={socialIconStyle}>
   <div class="social-container" style={socialContainerStyle}>
-    <svg class="social-svg" viewBox="0 0 64 64" style={socialSvgStyle}>
+    <svg {alt} class="social-svg" viewBox="0 0 64 64" style={socialSvgStyle}>
       <g class="social-svg-background" style={socialSvgBackgroundStyle}
         ><circle cx="32" cy="32" r="31" /></g
       >
