@@ -1,3 +1,9 @@
+## 0.0.7 (2021-09-10)
+
+### Fix
+
+- **package.json**: 💫 update package.json
+
 ## 0.0.6 (2021-09-10)
 
 ### Fix
