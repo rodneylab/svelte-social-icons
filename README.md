@@ -31,8 +31,8 @@ To use:
 	import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
 
-<SocialIcons network="github" />
-<SocialIcons network="twitter" />
+<SocialIcons network="github" alt=""/>
+<SocialIcons network="twitter" alt=""/>
 ```
 
 ![Svelte Social Icons - icons shown for 47 popular social networks in native colours](./images/svelte-social-icons-regular.png)
@@ -42,7 +42,7 @@ To use:
 - Change icon size
 
 ```html
-<SocialIcons network="github" width="24" height="24" />
+<SocialIcons alt="" network="github" width="24" height="24" />
 ```
 
 ![Svelte Social Icons - icons shown for 47 popular social networks in native colours, icons are smaller than previous image](./images/svelte-social-icons-small.png)
@@ -50,11 +50,22 @@ To use:
 - Change foreground and background colours
 
 ```html
-<SocialIcons network="github" fgColor="#eeeeee" bgColor="#111111" />
+<SocialIcons alt="" network="github" fgColor="#eeeeee" bgColor="#111111" />
 ```
 
 ![Svelte Social Icons - icons shown for 47 popular social networks with themed dark background and light foreground colours](./images/svelte-social-icons-background.png)
 
-![Svelte Social Icons - icons shown for 47 popular social networks with themed light background and dark foreground colous](./images/svelte-social-icons-foreground.png)
+![Svelte Social Icons - icons shown for 47 popular social networks with themed light background and dark foreground colours](./images/svelte-social-icons-foreground.png)
 
 ![Svelte Social Icons - icons shown for 47 popular social networks in rainbow colours each icon has background set to one of the six rainbow colours and colours alternate in sequence](./images/svelte-social-icons-rainbow.png)
+
+
+## Props
+
+| Property   | Type   | Required | Description |
+| :--------- | :----- | :------: | :---------- |
+| network    | String | Yes      | Override which network icon to render
+| bgColor    | String | No       | Override the background fill colour (defaults to social network's color)
+| fgColor    | String | No       | Override the icon's fill colour (defaults to transparent)
+| alt      | String | No       | Set the `alt` attribute on the rendered svg.  Set to empty string when the logo is decorative (defaults to "`<social-network-name>` logo")
+| style      | Object | No       | Override style properties passed to the rendered anchor tag |
