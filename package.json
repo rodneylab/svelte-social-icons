@@ -16,7 +16,8 @@
     "svelte",
     "sveltekit",
     "social",
-    "icons"
+    "icons",
+    "svg"
   ],
   "scripts": {
     "build": "rollup -c",

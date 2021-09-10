@@ -58,8 +58,8 @@ To use:
 
 ## Props
 
-| Property | Type   | Required | Description                                                                                                                               |
-| :------- | :----- | :------: | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| Property | Type   | Required | Description                                                                                                                                |
+| :------- | :----- | :------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | network  | String |   Yes    | Override which network icon to render.                                                                                                     |
 | bgColor  | String |    No    | Override the background fill colour (defaults to social network's color).                                                                  |
 | fgColor  | String |    No    | Override the icon's fill colour (defaults to transparent).                                                                                 |
