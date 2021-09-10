@@ -13,7 +13,6 @@
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodneylab/svelte-social-icons)
 
-
 Social icons for Svelte. Based on <a aria-label="Open react-social-icons repo on Git Hub" href="https://github.com/jaketrent/react-social-icons">react-social-icons</a> by Jake Trent.
 
 To install:
@@ -37,8 +36,6 @@ To use:
 
 ![Svelte Social Icons - icons shown for 47 popular social networks in native colours](./images/svelte-social-icons-regular.png)
 
-
-
 - Change icon size
 
 ```html
@@ -59,13 +56,12 @@ To use:
 
 ![Svelte Social Icons - icons shown for 47 popular social networks in rainbow colours each icon has background set to one of the six rainbow colours and colours alternate in sequence](./images/svelte-social-icons-rainbow.png)
 
-
 ## Props
 
-| Property   | Type   | Required | Description |
-| :--------- | :----- | :------: | :---------- |
-| network    | String | Yes      | Override which network icon to render
-| bgColor    | String | No       | Override the background fill colour (defaults to social network's color)
-| fgColor    | String | No       | Override the icon's fill colour (defaults to transparent)
-| alt      | String | No       | Set the `alt` attribute on the rendered svg.  Set to empty string when the logo is decorative (defaults to "`<social-network-name>` logo")
-| style      | Object | No       | Override style properties passed to the rendered anchor tag |
+| Property | Type   | Required | Description                                                                                                                               |
+| :------- | :----- | :------: | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| network  | String |   Yes    | Override which network icon to render                                                                                                     |
+| bgColor  | String |    No    | Override the background fill colour (defaults to social network's color)                                                                  |
+| fgColor  | String |    No    | Override the icon's fill colour (defaults to transparent)                                                                                 |
+| alt      | String |    No    | Set the `alt` attribute on the rendered svg. Set to empty string when the logo is decorative (defaults to "`<social-network-name>` logo") |
+| style    | Object |    No    | Override style properties passed to the rendered anchor tag                                                                               |
