@@ -1,3 +1,9 @@
+## 0.0.8 (2021-10-09)
+
+### Fix
+
+- **dependencies**: 💫 update packages
+
 ## 0.0.7 (2021-09-10)
 
 ### Fix
