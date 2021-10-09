@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.5",
+    "@rollup/plugin-typescript": "^8.2.5",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
@@ -41,7 +42,13 @@
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-standard": "^22.0.0",
-    "svelte": "^3.43.1"
+    "sveld": "^0.10.2",
+    "svelte": "^3.43.1",
+    "svelte-check": "^2.2.7",
+    "svelte-preprocess": "^4.9.8",
+    "svelte2tsx": "^0.4.7",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
   },
   "repository": {
     "type": "git",

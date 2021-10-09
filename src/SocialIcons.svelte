@@ -1,16 +1,16 @@
-<script>
+<script lang="ts">
   import networks from './_networks-db';
 
-  export let network;
+  export let network: string;
 
   const { color, icon, mask } = networks[network];
 
-  export let alt = `${network} logo`;
-  export let bgColor = color;
-  export let fgColor = 'transparent';
-  export let height = 48;
-  export let width = 48;
-  export let style = '';
+  // export let alt :string = `${network} logo`;
+  export let bgColor: string = color;
+  export let fgColor: string = 'transparent';
+  export let height:number = 48;
+  export let width:number = 48;
+  export let style: string = '';
 
   const socialIconStyle = `display: inline-block; position: relative; overflow: hidden; vertical-align: middle; width: ${width}px; height: ${height}px; ${style}`;
   const socialContainerStyle = 'position: absolute; inset: 0; width: 100%; height: 100%;';
@@ -23,7 +23,7 @@
 
 <span class="social-icon" style={socialIconStyle}>
   <div class="social-container" style={socialContainerStyle}>
-    <svg {alt} class="social-svg" viewBox="0 0 64 64" style={socialSvgStyle}>
+    <svg class="social-svg" viewBox="0 0 64 64" style={socialSvgStyle}>
       <g class="social-svg-background" style={socialSvgBackgroundStyle}
         ><circle cx="32" cy="32" r="31" /></g
       >
