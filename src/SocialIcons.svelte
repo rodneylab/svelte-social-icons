@@ -13,7 +13,7 @@
    * @type { string }
    */
   export let bgColor = color;
-  
+
   export let fgColor = 'transparent';
   export let height = 48;
   export let width = 48;
