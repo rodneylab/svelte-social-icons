@@ -1,8 +1,55 @@
 /// <reference types="svelte" />
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponentTyped } from 'svelte';
 
 export interface SocialIconsProps {
-  network?: undefined;
+  /**
+   * @default 'twitter'
+   */
+  network?:
+    | 'bandsintown'
+    | 'behance'
+    | 'codepen'
+    | 'discord'
+    | 'dribbble'
+    | 'dropbox'
+    | 'email'
+    | 'foursquare'
+    | 'github'
+    | 'google'
+    | 'google_play'
+    | 'instagram'
+    | 'itch.io'
+    | 'itunes'
+    | 'linkedin'
+    | 'mailto'
+    | 'medium'
+    | 'meetup'
+    | 'pinterest'
+    | 'rdio'
+    | 'reddit'
+    | 'rss'
+    | 'sharethis'
+    | 'smugmug'
+    | 'snapchat'
+    | 'soundcloud'
+    | 'spotify'
+    | 'squarespace'
+    | 'stackoverflow'
+    | 'telegram'
+    | 'tiktok'
+    | 'tumblr'
+    | 'twitch'
+    | 'twitter'
+    | 'upwork'
+    | 'vevo'
+    | 'vimeo'
+    | 'vine'
+    | 'vk'
+    | 'vsco'
+    | 'wechat'
+    | 'whatsapp'
+    | 'yelp'
+    | 'youtube';
 
   bgColor?: undefined;
 
@@ -27,8 +74,4 @@ export interface SocialIconsProps {
   style?: string;
 }
 
-export default class SocialIcons extends SvelteComponentTyped<
-  SocialIconsProps,
-  {},
-  {}
-> {}
+export default class SocialIcons extends SvelteComponentTyped<SocialIconsProps, {}, {}> {}

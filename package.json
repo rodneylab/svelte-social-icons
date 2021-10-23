@@ -5,11 +5,12 @@
   "svelte": "src/index.js",
   "module": "index.mjs",
   "main": "index.js",
-  "types": "src/index.d.ts",
+  "types": "types/index.d.ts",
   "files": [
     "src",
     "index.mjs",
-    "index.js"
+    "index.js",
+    "types"
   ],
   "author": "Rodney Lab <ask@rodneylab.com> (@rodneyLab)",
   "license": "BSD-3-Clause",
@@ -41,7 +42,7 @@
     "rollup-plugin-svelte": "^7.1.0",
     "stylelint": "^14.0.0",
     "stylelint-a11y": "^1.2.3",
-    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-recommended": "^6.0.0",
     "stylelint-config-recommended-scss": "^5.0.0",
     "stylelint-config-standard": "^23.0.0",
     "sveld": "^0.10.2",

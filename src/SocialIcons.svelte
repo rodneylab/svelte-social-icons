@@ -1,16 +1,19 @@
 <script lang="ts">
   import networks from './_networks-db';
 
-  export let network: string;
+  /**
+   * @type {  | 'bandsintown' | 'behance' | 'codepen' | 'discord' | 'dribbble' | 'dropbox' | 'email' | 'foursquare' | 'github' | 'google' | 'google_play' | 'instagram' | 'itch.io' | 'itunes' | 'linkedin' | 'mailto' | 'medium' | 'meetup' | 'pinterest' | 'rdio' | 'reddit' | 'rss' | 'sharethis' | 'smugmug' | 'snapchat' | 'soundcloud' | 'spotify' | 'squarespace' | 'stackoverflow' | 'telegram' | 'tiktok' | 'tumblr' | 'twitch' | 'twitter' | 'upwork' | 'vevo' | 'vimeo' | 'vine' | 'vk' | 'vsco' | 'wechat' | 'whatsapp' | 'yelp' | 'youtube'}
+   */
+  export let network = 'twitter';
 
   const { color, icon, mask } = networks[network];
 
   // export let alt :string = `${network} logo`;
-  export let bgColor: string = color;
-  export let fgColor: string = 'transparent';
-  export let height:number = 48;
-  export let width:number = 48;
-  export let style: string = '';
+  export let bgColor = color || '#00aced';
+  export let fgColor = 'transparent';
+  export let height = 48;
+  export let width = 48;
+  export let style = '';
 
   const socialIconStyle = `display: inline-block; position: relative; overflow: hidden; vertical-align: middle; width: ${width}px; height: ${height}px; ${style}`;
   const socialContainerStyle = 'position: absolute; inset: 0; width: 100%; height: 100%;';
