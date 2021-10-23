@@ -2,9 +2,6 @@
 import { SvelteComponentTyped } from 'svelte';
 
 export interface SocialIconsProps {
-  /**
-   * @default 'twitter'
-   */
   network?:
     | 'bandsintown'
     | 'behance'
