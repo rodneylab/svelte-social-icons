@@ -1,57 +1,58 @@
 /// <reference types="svelte" />
-import { SvelteComponentTyped } from 'svelte';
+import { SvelteComponentTyped } from "svelte";
 
 export interface SocialIconsProps {
   /**
    * @default 'twitter'
    */
   network?:
-    | 'bandsintown'
-    | 'behance'
-    | 'codepen'
-    | 'discord'
-    | 'dribbble'
-    | 'dropbox'
-    | 'email'
-    | 'foursquare'
-    | 'github'
-    | 'google'
-    | 'google_play'
-    | 'instagram'
-    | 'itch.io'
-    | 'itunes'
-    | 'linkedin'
-    | 'mailto'
-    | 'medium'
-    | 'meetup'
-    | 'pinterest'
-    | 'rdio'
-    | 'reddit'
-    | 'rss'
-    | 'sharethis'
-    | 'smugmug'
-    | 'snapchat'
-    | 'soundcloud'
-    | 'spotify'
-    | 'squarespace'
-    | 'stackoverflow'
-    | 'telegram'
-    | 'tiktok'
-    | 'tumblr'
-    | 'twitch'
-    | 'twitter'
-    | 'upwork'
-    | 'vevo'
-    | 'vimeo'
-    | 'vine'
-    | 'vk'
-    | 'vsco'
-    | 'wechat'
-    | 'whatsapp'
-    | 'yelp'
-    | 'youtube';
+    | "bandsintown"
+    | "behance"
+    | "codepen"
+    | "discord"
+    | "dribbble"
+    | "dropbox"
+    | "email"
+    | "facebook"
+    | "foursquare"
+    | "github"
+    | "google"
+    | "google_play"
+    | "instagram"
+    | "itch.io"
+    | "itunes"
+    | "linkedin"
+    | "mailto"
+    | "medium"
+    | "meetup"
+    | "pinterest"
+    | "rdio"
+    | "reddit"
+    | "rss"
+    | "sharethis"
+    | "smugmug"
+    | "snapchat"
+    | "soundcloud"
+    | "spotify"
+    | "squarespace"
+    | "stackoverflow"
+    | "telegram"
+    | "tiktok"
+    | "tumblr"
+    | "twitch"
+    | "twitter"
+    | "upwork"
+    | "vevo"
+    | "vimeo"
+    | "vine"
+    | "vk"
+    | "vsco"
+    | "wechat"
+    | "whatsapp"
+    | "yelp"
+    | "youtube";
 
-  bgColor?: undefined;
+  bgColor?: string;
 
   /**
    * @default 'transparent'
@@ -74,4 +75,8 @@ export interface SocialIconsProps {
   style?: string;
 }
 
-export default class SocialIcons extends SvelteComponentTyped<SocialIconsProps, {}, {}> {}
+export default class SocialIcons extends SvelteComponentTyped<
+  SocialIconsProps,
+  {},
+  {}
+> {}
