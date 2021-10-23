@@ -1,3 +1,18 @@
+## 0.0.13 (2021-10-23)
+
+### Fix
+
+- 💫 add network types for autocompletion
+- **dependencies**: 💫 update packages
+
+## 0.0.12 (2021-10-09)
+
+### Fix
+
+- 💫 tweak types
+- 💫 tweak types
+- 💫 types
+
 ## 0.0.10 (2021-10-09)
 
 ### Fix
