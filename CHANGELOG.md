@@ -1,3 +1,9 @@
+## 0.0.14 (2021-10-23)
+
+### Fix
+
+- 💫 add missing facebook network and override type for bgColor
+
 ## 0.0.13 (2021-10-23)
 
 ### Fix
