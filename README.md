@@ -60,8 +60,7 @@ To use:
 
 | Property | Type   | Required | Description                                                                                                                                |
 | :------- | :----- | :------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| network  | String |   Yes    | Override which network icon to render.                                                                                                     |
+| network  | Network |   Yes    | Override which network icon to render.  You can import the type if you need it in TypeScript: `import type { Network } from '@rodneylab/svelte-social-icons';`                                                                                                     |
 | bgColor  | String |    No    | Override the background fill colour (defaults to social network's color).                                                                  |
 | fgColor  | String |    No    | Override the icon's fill colour (defaults to transparent).                                                                                 |
-| alt      | String |    No    | Set the `alt` attribute on the rendered svg. Set to empty string when the logo is decorative (defaults to "`<social-network-name>` logo"). |
 | style    | Object |    No    | Override style properties passed to the rendered anchor tag.                                                                               |
