@@ -27,7 +27,7 @@ To use:
 
 ```
 <script>
-	import SocialIcons from '@rodneylab/svelte-social-icons';
+  import SocialIcons from '@rodneylab/svelte-social-icons';
 </script>
 
 <SocialIcons network="github" alt=""/>
@@ -58,9 +58,9 @@ To use:
 
 ## Props
 
-| Property | Type   | Required | Description                                                                                                                                |
-| :------- | :----- | :------: | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| network  | Network |   Yes    | Override which network icon to render.  You can import the type if you need it in TypeScript: `import type { Network } from '@rodneylab/svelte-social-icons';`                                                                                                     |
-| bgColor  | String |    No    | Override the background fill colour (defaults to social network's color).                                                                  |
-| fgColor  | String |    No    | Override the icon's fill colour (defaults to transparent).                                                                                 |
-| style    | Object |    No    | Override style properties passed to the rendered anchor tag.                                                                               |
+| Property | Type    | Required | Description                                                                                                                                                   |
+| :------- | :------ | :------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| network  | Network |   Yes    | Override which network icon to render. You can import the type if you need it in TypeScript: `import type { Network } from '@rodneylab/svelte-social-icons';` |
+| bgColor  | String  |    No    | Override the background fill colour (defaults to social network's color).                                                                                     |
+| fgColor  | String  |    No    | Override the icon's fill colour (defaults to transparent).                                                                                                    |
+| style    | Object  |    No    | Override style properties passed to the rendered anchor tag.                                                                                                  |

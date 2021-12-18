@@ -1,7 +1,7 @@
 {
   "name": "@rodneylab/svelte-social-icons",
   "description": "Beautiful, easy SVG social icons in Svelte.",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "svelte": "src/index.js",
   "module": "index.mjs",
   "main": "index.js",
@@ -60,11 +60,5 @@
   },
   "bugs": {
     "url": "https://github.com/rodneylab/svelte-social-icons/issues"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "pnpm run prettier:check && pnpm run lint:scss"
-    }
   }
 }
