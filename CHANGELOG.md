@@ -1,3 +1,10 @@
+## 0.0.17 (2021-12-18)
+
+### Fix
+
+- 💫 update stylelint config
+- **dependencies**: 💫 update packages
+
 ## 0.0.16 (2021-10-23)
 
 ### Fix
