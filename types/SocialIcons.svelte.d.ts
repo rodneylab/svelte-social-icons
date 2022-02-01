@@ -2,6 +2,9 @@
 import { SvelteComponentTyped } from 'svelte';
 
 export interface SocialIconsProps {
+  /**
+   * @default undefined
+   */
   network?:
     | 'bandsintown'
     | 'behance'
@@ -49,6 +52,9 @@ export interface SocialIconsProps {
     | 'yelp'
     | 'youtube';
 
+  /**
+   * @default undefined
+   */
   bgColor?: string;
 
   /**
