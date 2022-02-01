@@ -1,8 +1,15 @@
+## 0.0.18 (2022-02-01)
+
+### Fix
+
+- 💫 update dependencies
+- 💫 update packages
+
 ## 0.0.17 (2021-12-18)
 
 ### Fix
 
-- 💫 update stylelint config
+- 💫 upsdate stylelint config
 - **dependencies**: 💫 update packages
 
 ## 0.0.16 (2021-10-23)
