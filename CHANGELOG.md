@@ -1,3 +1,10 @@
+## 0.0.19 (2022-02-23)
+
+### Fix
+
+- **SocialIcons**: 💫 update component to use style directives
+- **dependencies**: 💫 update packages
+
 ## 0.0.18 (2022-02-01)
 
 ### Fix
