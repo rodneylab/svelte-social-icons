@@ -20,7 +20,7 @@
   export let width = 48;
   export let style = '';
 
-  const socialIconStyle = `display: inline-block; position: relative; overflow: hidden; vertical-align: middle; width: ${width}px; height: ${height}px; ${style}`;
+  const socialIconStyle = `display: inline-block; position: relative; overflow: hidden; ${style}`;
   const socialContainerStyle = 'position: absolute; inset: 0; width: 100%; height: 100%;';
   const socialSvgStyle =
     'border-radius: 50%; position: absolute; inset: 0; width: 100%; height: 100%; fill-rule: evenodd;';
@@ -29,7 +29,12 @@
   const socialSvgBackgroundStyle = `${socialSvgMaskStyle} fill: transparent;`;
 </script>
 
-<span class="social-icon" style={socialIconStyle}>
+<span
+  style:width={`${width}px`}
+  style:height={`${height}px`}
+  class="social-icon"
+  style={socialIconStyle}
+>
   <div class="social-container" style={socialContainerStyle}>
     <svg class="social-svg" viewBox="0 0 64 64" style={socialSvgStyle}>
       <g class="social-svg-background" style={socialSvgBackgroundStyle}
