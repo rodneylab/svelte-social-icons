@@ -1,7 +1,7 @@
 {
   "name": "@rodneylab/svelte-social-icons",
   "description": "Beautiful, easy SVG social icons in Svelte.",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "svelte": "src/index.js",
   "module": "index.mjs",
   "main": "index.js",
