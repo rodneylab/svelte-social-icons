@@ -1,3 +1,9 @@
+## 0.0.22 (2022-07-02)
+
+### Fix
+
+- git commit -m 'fix(dependencies): 💫 update packages
+
 ## 0.0.21 (2022-05-19)
 
 ### Fix
