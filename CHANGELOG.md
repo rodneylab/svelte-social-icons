@@ -1,3 +1,10 @@
+## 0.0.24 (2022-10-19)
+
+### Fix
+
+- fix(dependencies): 💫 update packages
+- **dependencies**: 💫 update packages
+
 ## 0.0.23 (2022-08-30)
 
 ### Fix
