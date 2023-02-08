@@ -1,1 +1,1 @@
-export { default } from './SocialIcons.svelte';
+export { default } from "./SocialIcons.svelte";
