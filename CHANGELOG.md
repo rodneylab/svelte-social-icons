@@ -1,3 +1,11 @@
+## Unreleased
+
+## 0.0.26 (2023-06-05)
+
+### Fix
+
+- **dependencies**: 💫 update packages
+
 ## 0.0.25 (2023-02-08)
 
 ### Fix
