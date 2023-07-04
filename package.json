@@ -35,7 +35,7 @@
     "@rollup/plugin-typescript": "^8.5.0",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-svelte3": "^4.0.0",
+    "eslint-plugin-svelte": "^2.30.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.24",
     "prettier": "^2.8.8",
@@ -48,10 +48,10 @@
     "sveld": "^0.18.1",
     "svelte": "^4.0.0",
     "svelte-check": "^3.4.3",
-    "svelte-preprocess": "^5.0.4",
+    "svelte-preprocess": "^5.0.3",
     "svelte2tsx": "^0.6.15",
     "tslib": "^2.5.3",
-    "typescript": "^4.9.5"
+    "typescript": "^5.0.0"
   },
   "repository": {
     "type": "git",
