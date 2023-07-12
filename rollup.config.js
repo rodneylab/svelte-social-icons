@@ -1,10 +1,8 @@
 import svelte from 'rollup-plugin-svelte';
-// import { terser } from 'rollup-plugin-terser';
 import resolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
-import preprocess from 'svelte-preprocess';
 import sveld from 'sveld';
-
+import preprocess from 'svelte-preprocess';
 import pkg from './package.json';
 
 function typeCheck() {
