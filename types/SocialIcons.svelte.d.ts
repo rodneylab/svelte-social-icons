@@ -1,5 +1,4 @@
-/// <reference types="svelte" />
-import type { SvelteComponent } from 'svelte';
+import type { SvelteComponentTyped } from 'svelte';
 
 export interface SocialIconsProps {
   /**
@@ -78,4 +77,8 @@ export interface SocialIconsProps {
   style?: string;
 }
 
-export default class SocialIcons extends SvelteComponent<SocialIconsProps, {}, {}> {}
+export default class SocialIcons extends SvelteComponentTyped<
+  SocialIconsProps,
+  Record<string, any>,
+  {}
+> {}
