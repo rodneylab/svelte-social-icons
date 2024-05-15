@@ -65,9 +65,10 @@
   },
   "type": "module",
   "exports": {
-    ".": "./src/index.js",
-    ".package.json": "./package.json",
-    "./svelte": "./src/index.js",
-    "./EmailInputField.svelte": "./src/SocialIcons.svelte"
+    ".": {
+      "svelte": "./src/index.js",
+      "package.json": "./package.json",
+      "SocialIcons.svelte": "./src/SocialIcons.svelte"
+    }
   }
 }
