@@ -1,4 +1,8 @@
-## Unreleased
+## 0.0.29 (2024-05-15)
+
+### Fix
+
+- update svelte config
 
 ## 0.0.28 (2023-07-12)
 
