@@ -1,24 +1,68 @@
 <script lang="ts">
   import networks from './_networks-db';
 
-  /**
-   * @type { 'bandsintown' | 'behance' | 'codepen' | 'discord' | 'dribbble' | 'dropbox' | 'email' | 'facebook' | 'foursquare' | 'github' | 'google' | 'google_play' | 'instagram' | 'itch.io' | 'itunes' | 'linkedin' | 'mailto' | 'medium' | 'meetup' | 'pinterest' | 'rdio' | 'reddit' | 'rss' | 'sharethis' | 'smugmug' | 'snapchat' | 'soundcloud' | 'spotify' | 'squarespace' | 'stackoverflow' | 'telegram' | 'tiktok' | 'tumblr' | 'twitch' | 'twitter' | 'upwork' | 'vevo' | 'vimeo' | 'vine' | 'vk' | 'vsco' | 'wechat' | 'whatsapp' | 'yelp' | 'youtube'}
-   */
-  export let network;
+  let {
+    network,
+    bgColor = networks[network].color,
+    fgColor = 'transparent',
+    height = 48,
+    width = 48,
+    style = '',
+  }: {
+    bgColor: string;
+    fgColor: string;
+    height: number;
+    width: number;
+    style: string;
+    network:
+      | 'bandsintown'
+      | 'behance'
+      | 'codepen'
+      | 'discord'
+      | 'dribbble'
+      | 'dropbox'
+      | 'email'
+      | 'facebook'
+      | 'foursquare'
+      | 'github'
+      | 'google'
+      | 'google_play'
+      | 'instagram'
+      | 'itch.io'
+      | 'itunes'
+      | 'linkedin'
+      | 'mailto'
+      | 'medium'
+      | 'meetup'
+      | 'pinterest'
+      | 'rdio'
+      | 'reddit'
+      | 'rss'
+      | 'sharethis'
+      | 'smugmug'
+      | 'snapchat'
+      | 'soundcloud'
+      | 'spotify'
+      | 'squarespace'
+      | 'stackoverflow'
+      | 'telegram'
+      | 'tiktok'
+      | 'tumblr'
+      | 'twitch'
+      | 'twitter'
+      | 'upwork'
+      | 'vevo'
+      | 'vimeo'
+      | 'vine'
+      | 'vk'
+      | 'vsco'
+      | 'wechat'
+      | 'whatsapp'
+      | 'yelp'
+      | 'youtube';
+  } = $props();
 
-  const { color, icon, mask } = networks[network];
-
-  // export let alt :string = `${network} logo`;
-
-  /**
-   * @type { string }
-   */
-  export let bgColor = color;
-
-  export let fgColor = 'transparent';
-  export let height = 48;
-  export let width = 48;
-  export let style = '';
+  const { icon, mask } = networks[network];
 
   const socialIconStyle = `display: inline-block; position: relative; overflow: hidden; ${style}`;
   const socialContainerStyle = 'position: absolute; inset: 0; width: 100%; height: 100%;';
